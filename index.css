@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    background-image: url(./imagenes/Fondo\ De\ Mancha\ De\ Acuarela\ Azul\ Rosa.jpg);
+}
+.Contenedor{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1000px;
+    margin: 30px auto;
+}
+.Contenedor ul{
+    list-style: none;
+}
+.Barra{
+    background-color:pink;
+    width: 100%;
+    height: 100px;
+}
+
+@media(min-width:600px)
+{
+    .Imagen{
+        width: 25%;
+        min-height: 75px;
+    }
+    .Parrafo{
+        width: 75%;
+    }
+}
+@media(min-width:600px)
+{
+    .for1{
+        width: 33.34%;
+    }
+    .for2{
+        width: 29.35%;
+    }
+    
+    .for3{
+        width: 35.34%;
+    }
+}
+
+.Imagen{
+    background-color: 	#ffe4c4;
+}
+.Parrafo{
+    background-color: #ffe4c4;
+}
+@media (min-width)
+{
+    .Contenedor{
+        width: 800px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.doc{
+    width: 325px;
+
+}
+.for{
+    width: 350px;
+
+}
+.for1{
+    width: 350px;
+
+}
+.med{
+    width: 325px;
+
+}
+.Elementos{
+    background-color:pink;
+    width: 100%;
+    height:  400px;
+}
+.for1{
+    background-color: #ffe4c4;
+}
+.for2{
+    background-color:#ffe4c4;
+}
+.for3{
+    background-color:#ffe4c4;
+}
